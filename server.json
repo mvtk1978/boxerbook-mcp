@@ -1,0 +1,12 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "com.boxerbook/boxing",
+  "title": "Boxerbook",
+  "description": "World professional boxing: schedule, results, boxer cards, rankings, forecasts. Free, no key.",
+  "websiteUrl": "https://boxerbook.com/developers",
+  "repository": { "url": "https://github.com/mvtk1978/boxerbook-mcp", "source": "github" },
+  "version": "1.0.0",
+  "remotes": [
+    { "type": "streamable-http", "url": "https://mcp.boxerbook.com/mcp" }
+  ]
+}
